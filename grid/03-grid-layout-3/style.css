@@ -5,6 +5,8 @@
 
 .container {
   text-align: center;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .container div {
@@ -17,6 +19,7 @@
 
 .header {
   background-color: #393f4d;
+  grid-column: 1 / -1;
 }
 
 .menu ul,
@@ -25,7 +28,7 @@
 }
 
 .sidebar {
-  background-color: #C50208;
+  background-color: #c50208;
 }
 
 .sidebar .photo {
@@ -36,7 +39,6 @@
   border-radius: 10px;
 }
 
-
 .sidebar .side-content {
   background-color: white;
   color: black;
@@ -45,7 +47,7 @@
 }
 
 .nav {
-  background-color: #C50208;
+  background-color: #c50208;
 }
 
 .nav ul li {
@@ -65,7 +67,7 @@
 }
 
 .article .card {
-  background-color: #FFFFFF;
+  background-color: #fff;
   color: black;
   text-align: center;
 }

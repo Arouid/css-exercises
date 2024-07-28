@@ -16,7 +16,7 @@
 }
 
 ul {
-  /* this removes the dots on the list items*/
+  /* this removes the dots on the list items */
   list-style-type: none;
   display: flex;
   gap: 2em;
@@ -29,6 +29,7 @@ a {
   font-size: 22px;
   background: white;
   padding: 8px;
+
   /* this removes the line under the links */
   text-decoration: none;
 }
